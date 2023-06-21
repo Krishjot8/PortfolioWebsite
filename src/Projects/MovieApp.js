@@ -1,7 +1,7 @@
 import { Text, Link, HStack, UnorderedList, ListItem } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
-
+import { FiExternalLink } from "react-icons/fi";
 const Event = () => {
   return (
     <>
@@ -9,6 +9,16 @@ const Event = () => {
         <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Movie App
         </Text>
+        <motion.div whileHover={{ color: "red" }}>
+          <Link
+            href="https://64867eb409e5ab7935779221--vermillion-tartufo-efecf9.netlify.app/"
+            isExternal
+          >
+            <FiExternalLink
+              style={{ width: "25px", height: "25px", display: "inline-block" }}
+            />
+          </Link>
+        </motion.div>
         <motion.div whileHover={{ color: "red" }}>
           <Link href="https://github.com/Krishjot8/Movie-App" pt="1" isExternal>
             <AiOutlineGithub
