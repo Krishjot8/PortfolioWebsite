@@ -22,7 +22,7 @@ const PracticeCard = () => {
                 <Avatar name="Krishjot Sarai" src="https://avatars.githubusercontent.com/u/70307095?v=4" />
                 <Box>
                   <Heading size="sm">Krishjot Sarai</Heading>
-                  <Text>@Eudeamonism</Text>
+                  <Text>@Krishjot8</Text>
                   <Text>GitHub Repository</Text>
                 </Box>
               </Flex>

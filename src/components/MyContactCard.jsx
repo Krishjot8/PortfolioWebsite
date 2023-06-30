@@ -77,7 +77,7 @@ const ContactCard = () => {
             </Box>
             <Box>
               <Link
-                href="https://docs.google.com/document/d/1SA6CO20NEoFhmAD4oiNFdVBWbJnitGAca0wkQulHHeY/edit?pli=1"
+                href="https://docs.google.com/document/d/1In5JbSHycLSYmbGaE9XuiSO-6ZzkJToOnBKmNyMQxXI/edit?usp=sharing"
                 isExternal
               >
                 <HStack>

@@ -504,6 +504,17 @@ const About = () => {
             </thead>
             <tbody>
               <tr>
+                <td>Medical Billing Service</td>
+                <td>Office Assistant</td>
+                <td>
+                  I Entered and sorted patient data for insurance companies and
+                  also documented and organized files.
+                </td>
+                <td>July 2018 to July 2019</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
                 <td>Axis Epc</td>
                 <td>Junior Drafter</td>
                 <td>

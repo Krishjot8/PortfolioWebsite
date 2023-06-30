@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, Link, HStack, UnorderedList, ListItem } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
-import { FiExternalLink } from "react-icons/fi";
+
 import { motion } from "framer-motion";
 
 const Viewer = () => {
@@ -11,13 +11,7 @@ const Viewer = () => {
         <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           BlogLab
         </Text>
-        <motion.div whileHover={{ color: "lightgrey" }}>
-          <Link href="https://gallery-pan.vercel.app/ " isExternal>
-            <FiExternalLink
-              style={{ width: "25px", height: "25px", display: "inline-block" }}
-            />
-          </Link>
-        </motion.div>
+        <motion.div whileHover={{ color: "lightgrey" }}></motion.div>
         <motion.div whileHover={{ color: "yellow" }}>
           <Link href="https://github.com/Krishjot8/BlogLab" pt="1" isExternal>
             <AiOutlineGithub
